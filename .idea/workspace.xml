@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95852c0-39b2-4aca-a9a8-9f9df02f99a8" name="Changes" comment="Made way for some events">
-      <change afterPath="$PROJECT_DIR$/src/gameplay/event/entity/EntityDeathEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/fights/FightManager.java" afterDir="false" />
+    <list default="true" id="b95852c0-39b2-4aca-a9a8-9f9df02f99a8" name="Changes" comment="Added FightManager.java">
+      <change afterPath="$PROJECT_DIR$/src/gameplay/fights/Fight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameplay/fights/FightManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameplay/fights/FightManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672661728908</updated>
-      <workItem from="1672661730895" duration="13295000" />
+      <workItem from="1672661730895" duration="15557000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1672667389893</created>
@@ -93,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672748655891</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="EntityDeathEvent.java added">
+      <created>1672750240355</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672750240355</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added FightManager.java">
+      <created>1672750255959</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672750255959</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +118,8 @@
     <MESSAGE value="Init commit" />
     <MESSAGE value="Added some MOBs" />
     <MESSAGE value="Made way for some events" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made way for some events" />
+    <MESSAGE value="EntityDeathEvent.java added" />
+    <MESSAGE value="Added FightManager.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added FightManager.java" />
   </component>
 </project>
