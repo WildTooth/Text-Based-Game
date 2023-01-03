@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95852c0-39b2-4aca-a9a8-9f9df02f99a8" name="Changes" comment="Init commit">
-      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/animals/Cow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/animals/Pig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/animals/Sheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/monsters/Skeleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/monsters/Spider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/monsters/Zombie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/event/Cancellable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/event/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/event/EventHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/event/EventManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/event/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/event/entity/EntityEvent.java" afterDir="false" />
+    <list default="true" id="b95852c0-39b2-4aca-a9a8-9f9df02f99a8" name="Changes" comment="Made way for some events">
+      <change afterPath="$PROJECT_DIR$/src/gameplay/event/entity/EntityDeathEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameplay/fights/FightManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameplay/entity/Damageable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameplay/entity/Damageable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameplay/entity/HumanEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameplay/entity/HumanEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameplay/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameplay/entity/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672661728908</updated>
-      <workItem from="1672661730895" duration="12026000" />
+      <workItem from="1672661730895" duration="13295000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1672667389893</created>
@@ -94,7 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672667389893</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added some MOBs">
+      <created>1672748638825</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672748638825</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Made way for some events">
+      <created>1672748655891</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672748655891</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +101,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init commit" />
+    <MESSAGE value="Added some MOBs" />
+    <MESSAGE value="Made way for some events" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made way for some events" />
   </component>
 </project>
