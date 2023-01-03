@@ -4,19 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95852c0-39b2-4aca-a9a8-9f9df02f99a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Text Based Game.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/Damageable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/HumanEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/LivingEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/Player.java" afterDir="false" />
+    <list default="true" id="b95852c0-39b2-4aca-a9a8-9f9df02f99a8" name="Changes" comment="Init commit">
+      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/animals/Cow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/animals/Pig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/animals/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/monsters/Skeleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/monsters/Spider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameplay/entity/monsters/Zombie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameplay/event/Cancellable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameplay/event/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameplay/event/EventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameplay/event/EventManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameplay/event/Listener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameplay/event/entity/EntityEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameplay/entity/Damageable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameplay/entity/Damageable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameplay/entity/HumanEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameplay/entity/HumanEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameplay/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameplay/entity/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +33,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,6 +63,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Text Based Game" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,11 +85,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672661728908</updated>
-      <workItem from="1672661730895" duration="4121000" />
+      <workItem from="1672661730895" duration="12026000" />
     </task>
+    <task id="LOCAL-00001" summary="Init commit">
+      <created>1672667389893</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672667389893</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init commit" />
   </component>
 </project>

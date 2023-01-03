@@ -1,5 +1,7 @@
 package gameplay.entity;
 
+import gameplay.event.EventHandler;
+
 public interface Damageable extends Entity {
 
     /**
